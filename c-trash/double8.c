@@ -136,6 +136,7 @@ int main()
 
 int display_useful_data(bool frame[])
 {
+    printf("Useful data is: ");
     for (int i = 0; i < 14; i++)
         printf("%d", frame[i]);
     printf("\n");
